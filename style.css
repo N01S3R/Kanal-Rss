@@ -1,5 +1,5 @@
-body,html
-{
+body,
+html {
 	height: 100%;
 	width: 100%;
 	margin: 0;
@@ -7,8 +7,7 @@ body,html
 	background: #a7b4a7 !important;
 }
 
-.searchbar
-{
+.searchbar {
 	margin-bottom: 10%;
 	margin-top: 10%;
 	height: 60px;
@@ -17,8 +16,7 @@ body,html
 	padding: 10px;
 }
 
-.search_input
-{
+.search_input {
 	color: white;
 	border: 0;
 	outline: 0;
@@ -29,29 +27,25 @@ body,html
 	transition: width 0.4s linear;
 }
 
-input.search_input:focus
-{
+input.search_input:focus {
 	padding: 0 10px;
 	width: 450px;
 	caret-color: blue;
 }
 
-.searchbar:hover > .search_input
-{
+.searchbar:hover>.search_input {
 	padding: 0 10px;
 	width: 450px;
 	caret-color: blue;
 	transition: width 0.4s linear;
 }
 
-.searchbar:hover > .search_icon
-{
+.searchbar:hover>.search_icon {
 	background: white;
 	color: #e74c3c;
 }
 
-.search_icon
-{
+.search_icon {
 	height: 40px;
 	width: 40px;
 	float: right;
@@ -62,17 +56,43 @@ input.search_input:focus
 	color: white;
 	text-decoration: none;
 }
-img
-{
+
+img {
 	width: 100px;
 	height: 100px;
 }
-#button
-{
+
+#button {
 	border: none;
 	background-color: transparent;
 }
-#button:focus
-{
+
+#button:focus {
 	border: none;
+}
+
+.channel {
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #000;
+
+	font-family: Arial, sans-serif;
+}
+
+.entry {
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #666;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 12px;
 }
